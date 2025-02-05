@@ -1,0 +1,83 @@
+body {
+   background-color: rgb(255, 255, 255); 
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.8; /* Adjust the value as needed */
+}
+
+.page-title {
+   text-align: center;
+}
+
+.row {
+   display: flex;
+   gap: 40px;
+   padding: 10px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.card {
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   overflow: hidden;
+   text-align: center;
+   transition: transform 0.3s ease;
+}
+
+.card:hover {
+   transform: translateY(-5px);
+}
+
+.card img {
+   width: 250px;
+   height: auto;
+   aspect-ratio: 1;
+   object-fit: cover;
+}
+
+.card .text {
+   padding: 15px;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+a {
+   text-decoration: none;
+   color: inherit; 
+}
+
+.home-button {
+   display: inline-flex;
+   align-items: center; /* Aligns icon and text */
+   background: #007bff; /* Blue background */
+   color: white; /* White text */
+   padding: 10px 20px;
+   border-radius: 8px;
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none; /* Remove underline */
+   border: none;
+   cursor: pointer;
+   transition: background 0.3s ease;
+   margin-left: 60px;
+}
+
+.home-button i {
+   margin-right: 8px; /* Space between icon and text */
+}
+
+.home-button:hover {
+   background: #0056b3; /* Darker blue on hover */
+}
+
+.detail-container {
+   padding-left: 30%;
+   width: 40%;
+}
+
+.detail-container img {
+   width: 600px;
+   height: 400px;
+   object-fit: cover;
+}
